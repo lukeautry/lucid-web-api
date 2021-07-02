@@ -1856,9 +1856,10 @@ describe('Definition generation for OpenAPI 3.0.0', () => {
                   default: undefined,
                   description: undefined,
                   example: undefined,
-                  format: 'double',
+                  type: 'integer',
+                  format: 'int32',
+                  minimum: 5,
                   nullable: true,
-                  type: 'number',
                 },
                 justNull: {
                   default: undefined,
